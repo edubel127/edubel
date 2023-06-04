@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE guerras
+[
+<!ELEMENT guerras (guerra+)>
+<!ELEMENT guerra (nombre,inicio,fin,bandos,objetivo)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT inicio (#PCDATA)>
+<!ELEMENT fin (#PCDATA)>
+<!ELEMENT bandos (#PCDATA)>
+<!ELEMENT objetivo (#PCDATA)>
+]>
+<guerras>
+  <guerra>
+    <nombre>Guerra Genpei</nombre>
+    <inicio>1180</inicio>
+    <fin>1185</fin>
+    <bandos>Taira vs Minamoto</bandos>
+    <objetivo>Control del gobierno imperial y poder político</objetivo>
+  </guerra>
+  <guerra>
+    <nombre>Guerra Ōnin</nombre>
+    <inicio>1467</inicio>
+    <fin>1477</fin>
+    <bandos>Hōjō vs Yamana vs Ouchi vs Hosokawa</bandos>
+    <objetivo>Disputa por el control del shogunato Ashikaga</objetivo>
+  </guerra>
+  <guerra>
+    <nombre>Guerra Boshin</nombre>
+    <inicio>1868</inicio>
+    <fin>1869</fin>
+    <bandos>Imperiales vs Shogunales</bandos>
+    <objetivo>Restauración del poder imperial y fin del shogunato</objetivo>
+  </guerra>
+  <guerra>
+    <nombre>Guerra Gempei</nombre>
+    <inicio>1180</inicio>
+    <fin>1185</fin>
+    <bandos>Taira vs Minamoto</bandos>
+    <objetivo>Control del gobierno imperial y poder político</objetivo>
+  </guerra>
+  <guerra>
+    <nombre>Guerra Jōkyū</nombre>
+    <inicio>1221</inicio>
+    <fin>1221</fin>
+    <bandos>Hōjō vs Imperial</bandos>
+    <objetivo>Derrocar al shogunato Kamakura y restaurar el poder imperial</objetivo>
+  </guerra>
+  <guerra>
+    <nombre>Guerra Ōei</nombre>
+    <inicio>1390</inicio>
+    <fin>1394</fin>
+    <bandos>Ashikaga vs Yamana vs Hosokawa vs Shiba</bandos>
+    <objetivo>Control del shogunato Ashikaga</objetivo>
+  </guerra>
+  <guerra>
+    <nombre>Guerra Onin-Bunmei</nombre>
+    <inicio>1467</inicio>
+    <fin>1477</fin>
+    <bandos>Hōjō vs Yamana vs Ouchi vs Hosokawa</bandos>
+    <objetivo>Disputa por el control del shogunato Ashikaga</objetivo>
+  </guerra>
+  <guerra>
+    <nombre>Guerra Sekigahara</nombre>
+    <inicio>1600</inicio>
+    <fin>1600</fin>
+    <bandos>Este vs Oeste</bandos>
+    <objetivo>Establecimiento del shogunato Tokugawa</objetivo>
+  </guerra>
+  <guerra>
+    <nombre>Guerra Bunei</nombre>
+    <inicio>1264</inicio>
+    <fin>1274</fin>
+    <bandos>Japón vs Imperio mongol</bandos>
+    <objetivo>Defender Japón de la invasión mongol</objetivo>
+  </guerra>
+  <guerra>
+    <nombre>Guerra Jōwa</nombre>
+    <inicio>931</inicio>
+    <fin>936</fin>
+    <bandos>Taira vs Minamoto</bandos>
+    <objetivo>Disputa por el control del gobierno imperial</objetivo>
+  </guerra>
+</guerras>
